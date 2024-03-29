@@ -10,7 +10,7 @@ const PORT = process.env.PORT || 5000;
 app.use(express.json());
 app.use(cors(
   {
-    origin: ["https://mini-loan-webapp.vercel.app", "https://quick-credit-backend.vercel.app","http://localhost:3000"],
+    origin: ["https://quick-credit-frontend.vercel.app", "https://quick-credit-backend.vercel.app","http://localhost:3000"],
     methods: ["POST", "GET","PUT","DELETE"],
     credentials: true
   }
