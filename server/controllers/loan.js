@@ -192,16 +192,16 @@ exports.updateState = async (req, res) => {
     }
 
     loan.state = state;
-    // console.log("state bk", state);
+ 
 
 
     await loan.save();
-    // console.log("loanbk", loan);
+
     return res.status(200).json({
       success: true,
       message: "Loan state updated successfully!",
     });
-    // console.log("Error ! in updating Status by Admin");
+
   } catch (error) {
     return res.status(500).json({
       success: false,

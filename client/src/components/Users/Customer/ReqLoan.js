@@ -24,10 +24,7 @@ const ReqLoan = () => {
       toast.error('Please enter loan amount and term.');
       return;
     }
-    // if (term > 20) {
-    //   toast.error('Terms can not be greater than 20');
-    //   return;
-    // }
+
 
 
     setLoading(true);
@@ -72,10 +69,6 @@ const ReqLoan = () => {
       setLoading(false);
       return;
     }
-    // if (term > 20) {
-    //   toast.error('Terms can not be greater than 20');
-    //   return;
-    // }
 
 
     const authToken = localStorage.getItem('token');
