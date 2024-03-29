@@ -1,5 +1,5 @@
 
-# Mini-Loan App
+# Quick Credit Loan App
 Welcome to the Quick Credit Loan App project! 
 
 
